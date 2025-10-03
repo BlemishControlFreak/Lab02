@@ -120,6 +120,6 @@ plastic_data_all %>%
 ```{r Ex4, message = FALSE}
 # Write your code here to answer exercise 4
 
-
+plastic_data_all %>% rename(pop=population, reg=region, mp=mismanaged_plastic, mp_ocean=mismanaged_plastic_ocean)
 
 ```
